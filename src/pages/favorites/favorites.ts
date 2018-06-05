@@ -20,7 +20,6 @@ export class FavoritesPage {
 
   ionViewWillEnter() {
     this.quotes = this.quoteService.getFavoriteQuotes();
-    console.log(this.quotes);
   }
 
   onViewQuote(quote: Quote) {

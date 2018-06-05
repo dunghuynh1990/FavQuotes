@@ -15,15 +15,8 @@ export class LibraryPage implements OnInit{
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad LibraryPage');
-  }
-
   ngOnInit() {
     this.quoteCollection = quotes;
-    console.log('====================================');
-    console.log(this.quoteCollection);
-    console.log('====================================');
   }
 
   reorderItems(indexes) {

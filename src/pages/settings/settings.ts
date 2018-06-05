@@ -12,7 +12,6 @@ export class SettingsPage {
     private settingService: SettingServices
   ) {}
   onToggle(toggle: Toggle) {
-    // console.log(toggle);
     this.settingService.setBackground(toggle.checked);
   }
 
